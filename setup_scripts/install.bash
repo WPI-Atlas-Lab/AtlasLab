@@ -7,13 +7,9 @@ if [ $(whoami) == 'root' ];then
     exit 0
 fi
 
-sudo apt-get -y update
-sudo apt-get -y install linux-headers-generic
-sudo apt-get -y install nvidia-current
-sudo nvidia-xconfig 
-sudo apt-get -y update
-sudo apt-get -y upgrade
-sudo apt-get -y dist-upgrade
+sudo add-apt-repository ppa:ubuntu-x-swat/x-updates 
+sudo apt-get update
+sudo apt-get install nvidia-331
 
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu precise main" > /etc/apt/sources.list.d/ros-latest.list' 
 wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
