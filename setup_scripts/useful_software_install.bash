@@ -3,6 +3,8 @@
 cd ~/Downloads/
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+
 sudo apt-get -y install terminator
 sudo apt-get -y install qtcreator
 sudo apt-get -y install stress
@@ -12,6 +14,12 @@ sudo apt-get -y install lm-sensors
 sudo apt-get -y install vim 
 sudo apt-get -y install emacs 
 sudo apt-get -y install htop 
+sudo apt-get -y install openssh-server
+sudo apt-get -y install gimp
+sudo apt-get -y install gitg
+sudo apt-get -y install gitk
+
+
 
 sudo apt-get -y install openjdk-7-jre openjdk-7-jdk
 cd ~/Downloads/
