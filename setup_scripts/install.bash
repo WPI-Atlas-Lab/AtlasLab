@@ -40,4 +40,4 @@ sudo chmod +x dependancy_install.bash
 cd ~/Downloads
 wget https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/setup_scripts/printer_install.bash
 sudo chmod +x printer_install.bash
-./printer_install.bash
+sudo ./printer_install.bash
