@@ -30,3 +30,6 @@ wstool set drc https://github.com/WPI-Atlas-Lab/drc --git
 wstool set robotiq --git https://github.com/ros-industrial/robotiq.git
 wstool update
 . ~/.bashrc
+cd ~/drc_workspace/
+catkin_make
+. ~/.bashrc
