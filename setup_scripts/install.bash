@@ -33,11 +33,6 @@ sudo chmod +x useful_software_install.bash
 ./useful_software_install.bash
 
 cd ~/Downloads
-wget https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/setup_scripts/dependancy_install.bash
-sudo chmod +x dependancy_install.bash
-./dependancy_install.bash
-
-cd ~/Downloads
 wget https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/setup_scripts/printer_install.bash
 sudo chmod +x printer_install.bash
 sudo ./printer_install.bash
