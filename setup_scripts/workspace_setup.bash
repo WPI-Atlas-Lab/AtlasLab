@@ -23,8 +23,8 @@ echo source /opt/ros/hydro/setup.bash >> ~/.bashrc
 echo source /usr/share/drcsim/setup.sh >> ~/.bashrc
 echo source ~/drc_workspace/devel/setup.bash >> ~/.bashrc
 echo export ATLAS_ROBOT_INTERFACE=~/drc_workspace/src/drc/field/atlas_controllers/AtlasRobotInterface >> ~/.bashrc
-echo alias roscd="'cd ~/drc_workspace/src/drc/'" >> ~/.bashrc
-echo alias rosmake="'catkin_make -C ~/drc_workspace'" >> ~/.bashrc
+echo alias drchome="'cd ~/drc_workspace/src/drc/'" >> ~/.bashrc
+echo alias drcmake="'catkin_make -C ~/drc_workspace'" >> ~/.bashrc
 . ~/.bashrc
 cd ~/drc_workspace/src
 wstool init
