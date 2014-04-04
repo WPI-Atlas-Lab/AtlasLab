@@ -1,16 +1,13 @@
 Scripted Install
 =====
-
-* Computer Setup
+* Dependancy Update
 
 ```
 cd ~/Downloads
-wget https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/setup_scripts/install.bash
-sudo chmod +x install.bash
-./install.bash
+wget https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/setup_scripts/dependancy_install.bash
+sudo chmod +x dependancy_install.bash
+./dependancy_install.bash
 ```
-
-
 
 * Workspace Setup
 
@@ -31,4 +28,12 @@ sudo chmod +x printer_install.bash
 sudo ./printer_install.bash
 ```
 
+* Computer Setup
+
+```
+cd ~/Downloads
+wget https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/setup_scripts/install.bash
+sudo chmod +x install.bash
+./install.bash
+```
 
