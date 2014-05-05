@@ -22,7 +22,7 @@ source devel/setup.bash
 echo source /opt/ros/hydro/setup.bash >> ~/.bashrc
 echo source /usr/share/drcsim/setup.sh >> ~/.bashrc
 echo source ~/drc_workspace/devel/setup.bash >> ~/.bashrc
-echo export ATLAS_ROBOT_INTERFACE=~/drc_workspace/src/drc/field/atlas_controllers/AtlasRobotInterface >> ~/.bashrc
+echo export ATLAS_ROBOT_INTERFACE=~/drc_workspace/src/drc/bdi_api/AtlasRobotInterface >> ~/.bashrc
 echo alias drchome="'cd ~/drc_workspace/src/drc/'" >> ~/.bashrc
 echo alias drcmake="'catkin_make -C ~/drc_workspace'" >> ~/.bashrc
 echo alias drceclipse="'catkin_make --force-cmake -G\"Eclipse CDT4 - Unix Makefiles\" -C ~/drc_workspace'" >> ~/.bashrc
