@@ -32,7 +32,6 @@ cd ~/drc_workspace/src
 wstool init
 wstool set drc https://github.com/WPI-Atlas-Lab/drc --git
 wstool set robotiq --git https://github.com/ros-industrial/robotiq.git
-#wstool set ueye --hg https://bitbucket.org/kmhallen/ueye
 wstool update
 . ~/.bashrc
 cd ~/drc_workspace/
