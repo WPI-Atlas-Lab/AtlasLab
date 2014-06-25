@@ -9,3 +9,18 @@ sudo apt-get -y install  ros-hydro-ar-track-alvar
 sudo apt-get -y install python-pip
 
 sudo pip install  -U pymodbus
+
+
+sudo apt-get -y install libeigen3-dev libsuitesparse-dev freeglut3-dev libglu-dev libglew-dev libboost-all-dev ros-hydro-libg2o gnuplot
+
+cd ~/Downloads
+
+wget http://www.dropbox.com/s/l0q4oc7yuk00t92/if_g2o_is_missed.zip 
+
+unzip if_g2o_is_missed.zip
+
+sudo mv if_g2o_is_missed/cmake /opt/ros/hydro/share/libg2o/
+
+rm -rf if_g2o_is_missed
+
+rm if_g2o_is_missed.zip
