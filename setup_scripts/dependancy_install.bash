@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt-get update
 
 sudo apt-get -y install ros-hydro-qt-ros
 sudo apt-get -y install ros-hydro-razer-hydra
@@ -7,9 +8,9 @@ sudo apt-get -y install libbobcat-dev
 sudo apt-get -y install libx264-120
 sudo apt-get -y install  ros-hydro-ar-track-alvar
 sudo apt-get -y install python-pip
-
 sudo pip install  -U pymodbus
 
+sudo apt-get -y remove ros-hydro-qt-create
 
 sudo apt-get -y install libeigen3-dev libsuitesparse-dev freeglut3-dev libglu-dev libglew-dev libboost-all-dev ros-hydro-libg2o gnuplot
 
