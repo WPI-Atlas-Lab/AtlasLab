@@ -34,7 +34,8 @@ echo export GAZEBO_MODEL_PATH=~/drc_workspace/src/robotiq:'${GAZEBO_MODEL_PATH}'
 cd ~/drc_workspace/src
 wstool init
 wstool set drc https://github.com/WPI-Atlas-Lab/drc --git
-wstool set robotiq --git https://github.com/ros-industrial/robotiq.git
+wstool set robotiq --git https://github.com/ros-industrial/robotiq.git -v hydro-devel
+. ~/.bashrc
 wstool update
 . ~/.bashrc
 cd ~/drc_workspace/
