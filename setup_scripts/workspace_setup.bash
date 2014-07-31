@@ -25,7 +25,7 @@ echo source ~/drc_workspace/devel/setup.bash >> ~/.bashrc
 echo export ATLAS_ROBOT_INTERFACE=~/drc_workspace/src/drc/bdi_api/AtlasRobotInterface >> ~/.bashrc
 echo export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}':'${ATLAS_ROBOT_INTERFACE}'/lib64 >> ~/.bashrc
 echo alias drchome="'cd ~/drc_workspace/src/drc/'" >> ~/.bashrc
-echo alias drcmake="'catkin_make -C ~/drc_workspace'" >> ~/.bashrc
+echo alias drcmake="'catkin_make -C ~/drc_workspace -DCMAKE_BUILD_TYPE=Release'" >> ~/.bashrc
 echo alias drceclipse="'catkin_make --force-cmake -G\"Eclipse CDT4 - Unix Makefiles\" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j8 -C ~/drc_workspace'" >> ~/.bashrc
 echo export GAZEBO_PLUGIN_PATH=~/drc_workspace/devel/lib:'${GAZEBO_PLUGIN_PATH}' >> ~/.bashrc
 echo export GAZEBO_MODEL_PATH=~/drc_workspace/src/robotiq:'${GAZEBO_MODEL_PATH}' >> ~/.bashrc
