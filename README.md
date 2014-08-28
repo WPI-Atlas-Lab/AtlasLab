@@ -1,5 +1,27 @@
 Scripted Install
 =====
+
+* Computer Setup
+
+```
+cd ~/Downloads
+wget -N https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/setup_scripts/install.bash
+sudo chmod +x install.bash
+./install.bash
+```
+
+Or
+=====
+
+* Eclipse Update
+
+```
+cd ~/Downloads
+wget -N https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/setup_scripts/eclipse_upgrade.bash
+sudo chmod +x eclipse_upgrade.bash
+./eclipse_upgrade.bash
+```
+
 * Dependancy Update
 
 ```
@@ -28,12 +50,5 @@ sudo chmod +x printer_install.bash
 sudo ./printer_install.bash
 ```
 
-* Computer Setup
 
-```
-cd ~/Downloads
-wget -N https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/setup_scripts/install.bash
-sudo chmod +x install.bash
-./install.bash
-```
 
