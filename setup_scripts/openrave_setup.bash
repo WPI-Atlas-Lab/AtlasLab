@@ -10,5 +10,5 @@ echo export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib >> ~/.bashrc
 cd ~/drc_workspace/src/trajopt
 mkdir build_trajopt	
 cd build_trajopt 
-cmake -DBUILD_HUMANOIDS=ON -DBUILD_CLOUDPROC=ON ../src/trajopt/
+cmake -DBUILD_HUMANOIDS=ON -DBUILD_CLOUDPROC=ON ../
 make -j
