@@ -14,6 +14,8 @@ cd build_trajopt
 cmake -DBUILD_HUMANOIDS=ON -DBUILD_CLOUDPROC=ON ../
 make -j
 
+. ~/.bashrc
+
 #Download gurobi5.6.3:
 #http://www.gurobi.com/download/gurobi-optimizer
 
@@ -24,3 +26,5 @@ make -j
 #sudo mv gurobi563 /opt/
 #Getting a license:
 #http://www.gurobi.com/documentation/5.6/quick-start-guide/how_to_obtain_and_install_
+#cd /opt/gurobi563/linux64/bin
+#./grbgetkey <LICENSE NUMBER GOES HERE>
