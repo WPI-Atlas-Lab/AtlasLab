@@ -10,6 +10,7 @@ sudo apt-get -y install ros-hydro-moveit-full
 sudo apt-get -y install ros-hydro-fcl
 sudo apt-get -y install libx264-120 kdelibs5-dev
 sudo apt-get -y install  ros-hydro-ar-track-alvar
+sudo apt-get -y install  ros-hydro-pr2-mechanism
 sudo apt-get -y install python-pip
 sudo pip install  -U pymodbus
 
