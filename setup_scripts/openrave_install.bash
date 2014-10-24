@@ -7,7 +7,7 @@ sudo apt-get install openrave
 sudo apt-get -y update
 
 
-cd ~/drc_workspace/src
-wstool set trajopt https://github.com/WPI-Atlas-Lab/drc-trajopt.git --git 
-wstool update trajopt
+# cd ~/drc_workspace/src
+# wstool set trajopt https://github.com/WPI-Atlas-Lab/drc-trajopt.git --git 
+# wstool update trajopt
 

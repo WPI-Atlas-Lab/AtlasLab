@@ -1,15 +1,15 @@
 #!/bin/bash
 
-echo PYTHONPATH="'${PYTHONPATH}':~/drc_workspace/src/trajopt/build_trajopt/lib:~/drc_workspace/src/trajopt" >> ~/.bashrc
+echo PYTHONPATH="'${PYTHONPATH}':~/drc_workspace/src/drc/trajopt/build_trajopt/lib:~/drc_workspace/src/drc/trajopt" >> ~/.bashrc
 echo export PYTHONPATH >> ~/.bashrc
 echo export GUROBI_HOME="/opt/gurobi563/linux64" >> ~/.bashrc
 echo export PATH="'${PATH}':'${GUROBI_HOME}'/bin" >> ~/.bashrc
 echo export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}':/usr/lib >> ~/.bashrc
-echo alias drctrajopt="'cd ~/drc_workspace/src/trajopt/'" >> ~/.bashrc
-echo export OPENRAVE_DATA='${OPENRAVE_DATA}':~/drc_workspace/src/trajopt/ >> ~/.bashrc
+echo alias drctrajopt="'cd ~/drc_workspace/src/drc/trajopt/'" >> ~/.bashrc
+echo export OPENRAVE_DATA='${OPENRAVE_DATA}':~/drc_workspace/src/drc/trajopt/ >> ~/.bashrc
 . ~/.bashrc
 
-cd ~/drc_workspace/src/trajopt
+cd ~/drc_workspace/src/drc/trajopt
 mkdir build_trajopt	
 cd build_trajopt 
 cmake -DBUILD_HUMANOIDS=ON -DBUILD_CLOUDPROC=ON ../
