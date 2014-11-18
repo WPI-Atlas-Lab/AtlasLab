@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get install libopenscenegraph-dev cmake libboost-all-dev libeigen3-dev python-numpy
+sudo apt-get install libopenscenegraph-dev cmake libboost-all-dev libeigen3-dev python-numpy python3.2-dev
 sudo add-apt-repository ppa:openrave/testing
 sudo apt-get -y update
 sudo apt-get install openrave
