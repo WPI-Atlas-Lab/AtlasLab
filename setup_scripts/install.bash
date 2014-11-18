@@ -36,3 +36,13 @@ cd ~/Downloads
 wget -N https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/setup_scripts/printer_install.bash
 sudo chmod +x printer_install.bash
 sudo ./printer_install.bash
+
+cd ~/Downloads 
+wget https://raw.github.com/WPI-Atlas-Lab/AtlasLab/openrave/setup_scripts/openrave_install.bash 
+sudo chmod +x openrave_install.bash 
+./openrave_install.bash
+
+cd ~/Downloads 
+wget https://raw.github.com/WPI-Atlas-Lab/AtlasLab/openrave/setup_scripts/openrave_setup.bash
+sudo chmod +x openrave_setup.bash 
+./openrave_setup.bash
