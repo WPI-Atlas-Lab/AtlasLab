@@ -8,11 +8,6 @@ if [ $(whoami) == 'root' ];then
 fi
 
 cd ~/Downloads
-wget -N https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/setup_scripts/video_card_install.bash
-sudo chmod +x video_card_install.bash
-./video_card_install.bash
-
-cd ~/Downloads
 wget -N https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/setup_scripts/ros_drcsim_install.bash
 sudo chmod +x ros_drcsim_install.bash
 ./ros_drcsim_install.bash

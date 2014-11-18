@@ -10,6 +10,7 @@ sudo apt-get -y install ros-hydro-moveit-full
 sudo apt-get -y install ros-hydro-fcl
 sudo apt-get -y install libx264-120 kdelibs5-dev
 sudo apt-get -y install  ros-hydro-ar-track-alvar
+sudo apt-get -y install  ros-hydro-pr2-mechanism
 sudo apt-get -y install python-pip
 sudo pip install  -U pymodbus
 
@@ -30,3 +31,5 @@ sudo mv if_g2o_is_missed/cmake /opt/ros/hydro/share/libg2o/
 rm -rf if_g2o_is_missed
 
 rm if_g2o_is_missed.zip
+
+sudo dpkg -i ~/drc_workspace/src/drc/sentis_tof_m100_pkg/m100api-1.0.0-Linux-amd64.deb 
