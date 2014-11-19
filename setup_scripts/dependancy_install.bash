@@ -12,6 +12,11 @@ sudo apt-get -y install libx264-120 kdelibs5-dev
 sudo apt-get -y install  ros-hydro-ar-track-alvar
 sudo apt-get -y install  ros-hydro-pr2-mechanism
 sudo apt-get -y install python-pip
+sudo apt-get -y install  libopenscenegraph-dev cmake libboost-all-dev libeigen3-dev python-numpy python3.2-dev
+sudo add-apt-repository -y ppa:openrave/testing
+sudo apt-get -y update
+sudo apt-get -y install openrave
+sudo apt-get -y update
 sudo pip install  -U pymodbus
 
 #this is from ros answers, http://answers.ros.org/question/174736/since-updating-ros-a-few-hours-ago-roscatkin-is-broken/
