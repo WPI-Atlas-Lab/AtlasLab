@@ -1,6 +1,7 @@
 #!/bin/bash
 sudo apt-get update
 
+sudo apt-get -y install aptitude
 sudo apt-get -y install ros-hydro-qt-ros
 sudo apt-get -y install ros-hydro-razer-hydra
 sudo apt-get -y install ros-hydro-camera-info-manager-py
