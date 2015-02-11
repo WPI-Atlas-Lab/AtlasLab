@@ -3,6 +3,7 @@ sudo apt-get update
 
 sudo apt-get -y install aptitude
 sudo apt-get -y install ros-hydro-qt-ros
+sudo apt-get -y install ros-hydro-multisense
 sudo apt-get -y install ros-hydro-razer-hydra
 sudo apt-get -y install ros-hydro-camera-info-manager-py
 sudo apt-get -y install libbobcat-dev
