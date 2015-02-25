@@ -50,8 +50,9 @@ wstool set drc https://github.com/WPI-Atlas-Lab/drc --git
 wstool set robotiq --git https://github.com/ros-industrial/robotiq.git -v hydro-devel
 . ~/.bashrc
 wstool update
-touch ~/drc_workspace/src/robotiq/robotiq_modbus_rtu/CATKIN_IGNORE
-touch ~/drc_workspace/src/robotiq/robotiq_modbus_tcp/CATKIN_IGNORE
+rm ~/drc_workspace/src/robotiq/robotiq_modbus_rtu/setup.py
+rm ~/drc_workspace/src/robotiq/robotiq_modbus_tcp/setup.py
+
 
 . ~/.bashrc
 cd ~/drc_workspace/
