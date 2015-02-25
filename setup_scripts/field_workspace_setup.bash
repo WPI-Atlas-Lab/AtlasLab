@@ -53,6 +53,12 @@ wstool update
 rm ~/drc_workspace/src/robotiq/robotiq_modbus_rtu/setup.py
 rm ~/drc_workspace/src/robotiq/robotiq_modbus_tcp/setup.py
 
+cd ~/drc_workspace/src/robotiq/robotiq_modbus_rtu/
+wget -N https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/setup.py
+
+cd ~/drc_workspace/src/robotiq/robotiq_modbus_tcp/
+wget -N https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/setup.py
+
 
 . ~/.bashrc
 cd ~/drc_workspace/
