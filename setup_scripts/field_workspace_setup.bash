@@ -55,9 +55,13 @@ rm ~/drc_workspace/src/robotiq/robotiq_modbus_tcp/setup.py
 
 cd ~/drc_workspace/src/robotiq/robotiq_modbus_rtu/
 wget -N https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/setup.py
+sudo chmod +x setup.py
 
 cd ~/drc_workspace/src/robotiq/robotiq_modbus_tcp/
 wget -N https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/setup.py
+sudo chmod +x setup.py
+
+cd ~/drc_workspace/src
 
 
 . ~/.bashrc
