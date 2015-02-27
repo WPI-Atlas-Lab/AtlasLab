@@ -14,6 +14,8 @@ sudo apt-get -y install libx264-120 kdelibs5-dev
 sudo apt-get -y install  ros-hydro-ar-track-alvar
 sudo apt-get -y install  ros-hydro-pr2-mechanism
 sudo apt-get -y install python-pip
+
+sudo apt-get -y install ros-hydro-sbpl
 sudo apt-get -y install libboost-random-dev ros-hydro-sbpl ros-hydro-octomap-ros
 sudo apt-get -y install  libopenscenegraph-dev cmake libboost-all-dev libeigen3-dev python-numpy python3.2-dev
 sudo add-apt-repository -y ppa:openrave/testing
