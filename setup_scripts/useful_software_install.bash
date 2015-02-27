@@ -19,7 +19,10 @@ sudo apt-get -y install openssh-server
 sudo apt-get -y install gimp
 sudo apt-get -y install gitg
 sudo apt-get -y install gitk
-
+sudo apt-get -y install screen
+sudo apt-get -y install tshark
+sudo apt-get -y install wireshark
+sudo apt-get -y install ntp
 
 
 sudo apt-get -y install openjdk-7-jre openjdk-7-jdk
