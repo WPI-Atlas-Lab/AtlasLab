@@ -30,7 +30,7 @@ echo export GAZEBO_PLUGIN_PATH=~/drc_workspace/devel/lib:'${GAZEBO_PLUGIN_PATH}'
 echo export GAZEBO_MODEL_PATH=~/drc_workspace/src/robotiq:'${GAZEBO_MODEL_PATH}' >> ~/.bashrc
 echo export PYTHONPATH=~/drc_workspace/src/drc/trajopt/build_trajopt/lib:~/drc_workspace/src/drc/trajopt:'${PYTHONPATH}' >> ~/.bashrc
 echo export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}':/usr/lib >> ~/.bashrc
-echo export GUROBI_HOME="/opt/gurobi563/linux64" >> ~/.bashrc
+echo export GUROBI_HOME="/opt/gurobi602/linux64" >> ~/.bashrc
 echo export OPENRAVE_DATA='${OPENRAVE_DATA}':~/drc_workspace/src/drc/trajopt/ >> ~/.bashrc
 echo alias drctrajopt="'cd ~/drc_workspace/src/drc/trajopt/'" >> ~/.bashrc
 
