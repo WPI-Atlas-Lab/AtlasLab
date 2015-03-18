@@ -38,7 +38,6 @@ echo alias drctrajopt="'cd ~/drc_workspace/src/drc/trajopt/'" >> ~/.bashrc
 cd ~/drc_workspace/src
 wstool init
 wstool set drc https://github.com/WPI-Atlas-Lab/drc --git
-wstool set robotiq --git https://github.com/ros-industrial/robotiq.git -v hydro-devel
 . ~/.bashrc
 wstool update
 . ~/.bashrc
