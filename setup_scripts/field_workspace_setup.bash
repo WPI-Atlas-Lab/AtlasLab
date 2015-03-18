@@ -47,19 +47,8 @@ echo alias atlasstop="'source ~/drc_workspace/src/drc/wrecs_bringup/scripts/atla
 cd ~/drc_workspace/src
 wstool init
 wstool set drc https://github.com/WPI-Atlas-Lab/drc --git
-wstool set robotiq --git https://github.com/ros-industrial/robotiq.git -v hydro-devel
 . ~/.bashrc
 wstool update
-rm ~/drc_workspace/src/robotiq/robotiq_modbus_rtu/setup.py
-rm ~/drc_workspace/src/robotiq/robotiq_modbus_tcp/setup.py
-
-cd ~/drc_workspace/src/robotiq/robotiq_modbus_rtu/
-wget -N https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/robotiq/robotiq_modbus_rtu/setup.py
-sudo chmod +x setup.py
-
-cd ~/drc_workspace/src/robotiq/robotiq_modbus_tcp/
-wget -N https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/robotiq/robotiq_modbus_tcp/setup.py
-sudo chmod +x setup.py
 
 cd ~/drc_workspace/src
 
