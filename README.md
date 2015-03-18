@@ -1,6 +1,30 @@
 Scripted Install
 =====
 
+
+* Workspace Setup
+
+```
+cd ~/Downloads
+wget -N https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/setup_scripts/workspace_setup.bash
+sudo chmod +x workspace_setup.bash
+./workspace_setup.bash
+```
+
+
+* Field Workspace Setup
+
+```
+cd ~/Downloads
+wget -N https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/setup_scripts/field_workspace_setup.bash
+sudo chmod +x field_workspace_setup.bash
+./field_workspace_setup.bash
+```
+
+
+
+
+
 * Computer Setup
 
 ```
@@ -31,14 +55,6 @@ sudo chmod +x dependancy_install.bash
 ./dependancy_install.bash
 ```
 
-* Workspace Setup
-
-```
-cd ~/Downloads
-wget -N https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/setup_scripts/workspace_setup.bash
-sudo chmod +x workspace_setup.bash
-./workspace_setup.bash
-```
 
 
 * Printer Install
