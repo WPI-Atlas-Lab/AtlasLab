@@ -27,7 +27,7 @@ echo export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}':'${ATLAS_ROBOT_INTERFACE}'/lib6
 echo alias drchome="'cd ~/drc_workspace/src/drc/'" >> ~/.bashrc
 echo alias drceclipse="'catkin_make --force-cmake -G\"Eclipse CDT4 - Unix Makefiles\" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_ECLIPSE_MAKE_ARGUMENTS=-j8 -C ~/drc_workspace'" >> ~/.bashrc
 echo export GAZEBO_PLUGIN_PATH=~/drc_workspace/devel/lib:'${GAZEBO_PLUGIN_PATH}' >> ~/.bashrc
-echo export GAZEBO_MODEL_PATH=~/drc_workspace/src/robotiq:'${GAZEBO_MODEL_PATH}' >> ~/.bashrc
+echo export GAZEBO_MODEL_PATH=~/drc_workspace/src/drc/field/robotiq:'${GAZEBO_MODEL_PATH}' >> ~/.bashrc
 echo export PYTHONPATH=~/drc_workspace/src/drc/trajopt/build_trajopt/lib:~/drc_workspace/src/drc/trajopt:'${PYTHONPATH}' >> ~/.bashrc
 echo export LD_LIBRARY_PATH='${LD_LIBRARY_PATH}':/usr/lib >> ~/.bashrc
 echo export GUROBI_HOME="/opt/gurobi602/linux64" >> ~/.bashrc
