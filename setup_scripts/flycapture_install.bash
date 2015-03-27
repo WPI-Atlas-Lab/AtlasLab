@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cd ~/drc_workspace/src/drc/field/atlas_sitcams/
-cd flycapture
+cd ~/Downloads
+wget -N https://raw.github.com/WPI-Atlas-Lab/AtlasLab/master/flycapture2-2.7.3.19-amd64-pkg.tgz
 tar xvf flycapture2-2.7.3.19-amd64-pkg.tgz
 cd flycapture2-2.7.3.19-amd64
 sudo apt-get -y -f install
