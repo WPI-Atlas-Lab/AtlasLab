@@ -15,6 +15,7 @@ sudo apt-get -y install  ros-hydro-ar-track-alvar
 sudo apt-get -y install  ros-hydro-pr2-mechanism
 sudo apt-get -y install python-pip
 sudo apt-get -y install ros-hydro-axis-camera
+sudo apt-get -y install ros-hydro-roslint
 
 sudo apt-get -y install ros-hydro-sbpl
 sudo apt-get -y install libboost-random-dev ros-hydro-sbpl ros-hydro-octomap-ros
